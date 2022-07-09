@@ -1,0 +1,83 @@
+/*style body by adding background image and set it to  cover,add font family*/
+body{
+    font-family: arvo,serif;
+    background :black;
+}
+
+/* style brand*/
+.logo{
+    width: 30px;
+    height: 30px;
+}
+
+/*style navigation bar*/
+.navbar-inverse{
+    color: rgb(251, 255, 0);
+}
+.nav li{
+   color: gold;
+    font-size: 20px;
+    margin-right: 35px;
+    padding: 10px 0;
+}
+.nav li:hover{
+    border-bottom: 1px solid rgb(251, 255, 0);
+    padding-bottom: 9px;
+    cursor:pointer
+}
+
+/*style jumbotron*/
+.jumbotron{
+    background: transparent;
+    color: aliceblue;
+    text-align: center;
+    margin: 0;
+    padding :10px;
+    letter-spacing: 2.5px;
+}
+/*limit the width of the icons */
+.container{
+    max-width: 1000px;
+}
+
+/* style icon section using bootstrap grid system*/
+.bodyimage{
+    height: 100px;
+}
+.col-md-4{
+    text-align: center;
+    color: white;
+}
+.icons p{
+    font-size: 18px;
+}
+
+/*style contact button*/
+.contact{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.btn{
+    background-color: gold;
+    border-radius: 10px;
+    border:none;
+    color: aliceblue;
+    font-size: 18px;
+    padding :10px 70px;
+    letter-spacing: 1.3px;
+}
+/*style footer*/
+.footer{
+    
+    text-align: center;
+    color: gold;
+    font-size: 15px;
+    padding: 10px 0;
+}
+/*use media queries to change icons size in small devices */
+@media (max-width:768px) {
+    .bodyimage{
+        height: 70px;
+    }
+}
